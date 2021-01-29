@@ -4,17 +4,16 @@ public class Herbivore extends Animal {
 
     private String herbivore;
 
-    @Override
-    public void printHerbivore() {
-        super.printHerbivore();
-        System.out.print(herbivore);
+    public Herbivore(String name) {
+        super(name);
+        setHerbivore("초식");
     }
 
-    public Herbivore() {
+    public String getHerbivore() {
+        return herbivore;
     }
 
-    public Herbivore(String herbivore) {
+    public void setHerbivore(String herbivore) {
         this.herbivore = herbivore;
-        super.setType("초식");
     }
 }
