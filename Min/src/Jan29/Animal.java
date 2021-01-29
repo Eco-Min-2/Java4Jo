@@ -1,19 +1,17 @@
 package Jan29;
 
 public class Animal {
-    private String type;
+    private String name;
 
-    public void setType(String type) {
-        this.type = type;
+    public Animal(String name) {
+        this.name = name;
     }
 
-    public void printCarnivore() {
+    public String getName() {
+        return name;
     }
 
-    public void printHerbivore() {
-    }
-
-    public String getType() {
-        return type;
+    public void setName(String name) {
+        this.name = name;
     }
 }
