@@ -4,18 +4,16 @@ public class Carnivore extends Animal{
 
     public String carnivore;
 
-
-    @Override
-    public void printCarnivore() {
-        super.printCarnivore();
-        System.out.print(carnivore);
+    public Carnivore(String name) {
+        super(name);
+        setCarnivore("육식");
     }
 
-    public Carnivore() {
+    public String getCarnivore() {
+        return carnivore;
     }
 
-    public Carnivore(String carnivore) {
+    public void setCarnivore(String carnivore) {
         this.carnivore = carnivore;
-        super.setType("육식");
     }
 }

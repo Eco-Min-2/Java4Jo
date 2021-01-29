@@ -1,54 +1,61 @@
 package Jan29;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class Zoo {
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int count = scanner.nextInt();
+    private final Scanner sc = new Scanner(System.in);
+    private int count;
+    private Animal[] animals;
 
-        Animal[] animals = new Animal[count];
+    public Zoo() {
+        countAnimal();
+        checkAnimal();
+    }
 
+
+    private void countAnimal() {
+        System.out.println("동물의 수");
+        this.count = sc.nextInt();
+        this.animals = new Animal[count];
+    }
+
+    private void checkAnimal() {
         for (int i = 0; i < count; i++) {
-            System.out.println("1 : 육식, 2 : 초식");
-            int x = scanner.nextInt();
-            String sc = scanner.next();
+            System.out.println("1. 육식, 2. 초식");
+            int x = sc.nextInt();
+            String s = sc.next();
             if (x == 1) {
-                animals[i] = new Carnivore(sc);
+                this.animals[i] = new Carnivore(s);
             } else {
-                animals[i] = new Herbivore(sc);
+                this.animals[i] = new Herbivore(s);
             }
         }
+    }
 
-        List<Animal> carnivore = Arrays.stream(animals)
-                .filter(x -> x.getType().equals("육식"))
-                .collect(Collectors.toList());
+    public void printCarnivore() {
+        String carnivore = Arrays.stream(this.animals)
+                .filter(x -> x instanceof Carnivore)
+                .map(Animal::getName)
+                .collect(Collectors.joining(", "));
+        System.out.println("육식동물 : " + carnivore);
+    }
 
-        List<Animal> herbivore = Arrays.stream(animals)
-                .filter(x -> x.getType().equals("초식"))
-                .collect(Collectors.toList());
+    public void printHerbivore() {
+        String herbivore = Arrays.stream(this.animals)
+                .filter(x -> x instanceof Herbivore)
+                .map(Animal::getName)
+                .collect(Collectors.joining(", "));
+        System.out.println("초식동물 : " + herbivore);
+    }
 
-        System.out.print("육식 동물 : ");
-        for (Animal animal : carnivore) {
-            animal.printCarnivore();
-            if (carnivore.get(carnivore.size()-1) == animal) {
-                System.out.println();
-            }else {
-                System.out.print(", ");
-            }
-        }
-        System.out.print("초식 동물 : ");
-        for (Animal animal : herbivore) {
-            animal.printHerbivore();
-            if (carnivore.get(herbivore.size()-1) == animal) {
-                System.out.println();
-            }else {
-                System.out.print(", ");
-            }
-        }
+    public Animal[] getAnimals() {
+        return animals;
+    }
+
+    private void setAnimals(Animal[] animals) {
+        this.animals = animals;
     }
 }
