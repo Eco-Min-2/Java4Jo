@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb9b52f3-ea62-46ef-8bfe-d834ea76e342" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Min/src/Feb10/Feb10_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Min/src/Feb15/Feb15_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Min/src/Feb15/Feb15_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java4Jo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java4Jo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_20210203/Baronage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Baronage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_20210203/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_20210203/Duke.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Duke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_20210203/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_20210203/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_20210203/Marquis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Marquis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_20210203/Viscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Viscount.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1oBEpkS2UNn1RqQ6nJ0XTPOCQNk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="Application.Feb15_2">
+    <configuration name="Feb10_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Feb10.Feb10_1" />
+      <module name="Min" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Feb10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feb15_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Feb15.Feb15_1" />
+      <module name="Min" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Feb15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feb15_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Feb15.Feb15_2" />
+      <module name="Min" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Feb15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Feb15_2" />
+        <item itemvalue="Application.Feb15_1" />
+        <item itemvalue="Application.Feb10_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb9b52f3-ea62-46ef-8bfe-d834ea76e342" name="Default Changelist" comment="" />
+      <created>1612751772329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612751772329</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

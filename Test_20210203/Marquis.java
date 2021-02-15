@@ -10,7 +10,7 @@ public class Marquis extends Sinha implements Identity{
 	@Override
 	public void giveMoney() {
 		// TODO Auto-generated method stub\
-		System.out.println("ÈÄÀÛ : ¼¼±İÀ» ³»Áö ¾Ê´Â´Ù.");
+		System.out.println("í›„ì‘ : ì„¸ê¸ˆì„ ë‚´ì§€ ì•ŠëŠ”ë‹¤.");
 	}
 
 }

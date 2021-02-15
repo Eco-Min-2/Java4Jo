@@ -6,15 +6,15 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		Sinha[] sinha = new Sinha[7];
-		sinha[0] = new Viscount("°­", 100000,"ÀÚÀÛ");
-		sinha[1] = new Duke("ÃÖ", 100000, "°øÀÛ");
-		sinha[2] = new Baronage("ÀÌ", 10000, "³²ÀÛ");
-		sinha[3] = new Count("±è", 100000, "¹éÀÛ");
-		sinha[4] = new Marquis("¹Ú", 100000, "ÈÄÀÛ");
-		sinha[5] = new Duke("À¯", 100000, "°øÀÛ");
-		sinha[6] = new Baronage("±Ç", 100000, "³²ÀÛ");
+		sinha[0] = new Viscount("ê°•", 100000,"ìì‘");
+		sinha[1] = new Duke("ìµœ", 100000, "ê³µì‘");
+		sinha[2] = new Baronage("ì´", 10000, "ë‚¨ì‘");
+		sinha[3] = new Count("ê¹€", 100000, "ë°±ì‘");
+		sinha[4] = new Marquis("ë°•", 100000, "í›„ì‘");
+		sinha[5] = new Duke("ìœ ", 100000, "ê³µì‘");
+		sinha[6] = new Baronage("ê¶Œ", 100000, "ë‚¨ì‘");
 		
-		King king = new King("Å·",sinha);
+		King king = new King("í‚¹",sinha);
 		king.showMoney();
 				
 	}
