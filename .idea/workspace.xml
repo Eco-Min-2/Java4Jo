@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="eb9b52f3-ea62-46ef-8bfe-d834ea76e342" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Min/src/Feb10/Feb10_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Min/src/Feb15/Feb15_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Min/src/Feb15/Feb15_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Java4Jo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java4Jo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_20210203/Baronage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Baronage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_20210203/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_20210203/Duke.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Duke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_20210203/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_20210203/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_20210203/Marquis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Marquis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_20210203/Viscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test_20210203/Viscount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
