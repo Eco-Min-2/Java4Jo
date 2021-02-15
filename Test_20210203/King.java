@@ -33,16 +33,16 @@ public class King {
 	
 	public void showMoney() {
 		Duke duke;
-		System.out.println("¼¼±İÀ» °È½À´Ï´Ù.");
+		System.out.println("ì„¸ê¸ˆì„ ê±·ìŠµë‹ˆë‹¤.");
 		for(int i = 0; i < sinha.length; i++) {
-			if(sinha[i].getIdentity().equals("°øÀÛ")){
+			if(sinha[i].getIdentity().equals("ê³µì‘")){
 				duke = (Duke) sinha[i];
 				duke.giveMoney();
 				money += duke.tax;
-				System.out.println(duke.getName() + duke.getIdentity()+"´Ô²²¼­ "+duke.tax+"¼¼±İÀ» ³»¼Ë½À´Ï´Ù.");
+				System.out.println(duke.getName() + duke.getIdentity()+"ë‹˜ê»˜ì„œ "+duke.tax+"ì„¸ê¸ˆì„ ë‚´ì…§ìŠµë‹ˆë‹¤.");
 			}
 		}
-		System.out.println("°ÈÀº ¼¼±İ : " + money);
+		System.out.println("ê±·ì€ ì„¸ê¸ˆ : " + money);
 	}
 	
 }

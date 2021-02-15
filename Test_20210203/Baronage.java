@@ -10,7 +10,7 @@ public class Baronage extends Sinha implements Identity{
 	@Override
 	public void giveMoney() {
 		// TODO Auto-generated method stub\
-		System.out.println("³²ÀÛ : ¼¼±İÀ» ³»Áö ¾Ê´Â´Ù.");
+		System.out.println("ë‚¨ì‘ : ì„¸ê¸ˆì„ ë‚´ì§€ ì•ŠëŠ”ë‹¤.");
 	}
 
 }

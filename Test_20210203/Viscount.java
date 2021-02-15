@@ -11,6 +11,6 @@ public class Viscount extends Sinha implements Identity {
 	@Override
 	public void giveMoney() {
 		// TODO Auto-generated method stub\
-		System.out.println("ÀÚÀÛ : ¼¼±İÀ» ³»Áö ¾Ê´Â´Ù.");
+		System.out.println("ìì‘ : ì„¸ê¸ˆì„ ë‚´ì§€ ì•ŠëŠ”ë‹¤.");
 	}
 }
