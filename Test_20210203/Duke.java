@@ -10,7 +10,7 @@ public class Duke extends Sinha implements Identity{
 	@Override
 	public void giveMoney() {
 		// TODO Auto-generated method stub\
-		System.out.println("°øÀÛ : ¼¼±İÀ» ³½´Ù.");
+		System.out.println("ê³µì‘ : ì„¸ê¸ˆì„ ë‚¸ë‹¤.");
 		super.money -= 1000;
 		super.tax = 1000;
 	}
